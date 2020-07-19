@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Happy Moments - Play, Music, Snacks </title>
+  <link rel="icon" type="image/png" sizes="32x31" href="/images/HappyMomentsLogotab.png">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,700;1,700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+  <body>
+
+    <div class="nav" id="nav">
+
+      <div class="texto-menu-nav">
+        <h1>MENU</h1>
+      </div>
+      <div class="Book ml-auto py-3">
+        <button class="btn btn-dark bg-light ml-auto btn-nav" data-modal="#modal-book~">
+          <a class="reserva" href="index.html#reservation">Reservas</a>
+        </button>
+      </div>
+      <nav class="navigation">
+
+        <div id="menuToggle">
+
+
+          <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+          <input type="checkbox" />
+
+          <!--SPANS BURGER-->
+
+          <span></span>
+          <span></span>
+          <span></span>
+
+
+
+
+          <ul id="menu">
+            <hr>
+            <h1 class="menuText"></h1>
+            <a href="/index.html">
+              <li>Inicio</li>
+            </a>
+            <a href="/menu.html">
+              <li>Menu</li>
+            </a>
+            <a href="/index.html#reservation">
+              <li>Reservas</li>
+            </a>
+            <a href="/events.html">
+              <li>Eventos</li>
+            </a>
+            <a href="/index.html#location">
+              <li>Ubicacion</li>
+            </a>
+            <a href="/contact.html">
+              <li>Contacto</li>
+            </a>
+            <hr>
+
+            <div class="container">
+
+              <!-- Social buttons -->
+              <div class="socialBox mb-0">
+                <ul class="list-unstyled list-inline text-center">
+                  <li class="list-inline-item social1">
+                    <a href="http://www.facebook.com/tonsvz" class="btn-floating btn-fb mx-1">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+                  <li class="list-inline-item social1">
+                    <a href="http://www.instagram.com/tonsofcode" class="btn-floating btn-tw mx-1">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+                  <li class="list-inline-item social1">
+                    <a href="#" class="btn-floating btn-gplus mx-1">
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Social buttons -->
+
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!--header-->
+
+    <main id="main">
+      <div class="video-container">
+        <header class="header header-page-height">
+          <div class="header-media">
+            <img src="/images/Header - Contact.jpg" alt="" srcset="">
+        </div>
+          <div class="container">
+            <div class="row2">
+              <div class="overlay-desc mx-auto mb-5">
+                <h1 class="text-center text-header mx-auto my-4 ">CONTACTO</h1>
+                
+              </div>
+            </div>
+          </div>
+      </div>
+      </header>
+
+      <!--header fin-->
+
+      <!--Contacto Section-->
+
+      <section class="contacto">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mt-5">
+              <h1 class="mx-auto big">Contacta con Nosotros</h1>
+              <p class="text-muted lead mt-3">Estamos aquí para ayudar. Contáctenos para comentarios generales, consultas,
+                eventos corporativos, o simplemente para dejarnos tu opinion.</p>
+              <h3 class="contacto-mail mt-3">info@happymoments.com</h3>
+              <h3 class="contacto-mail mt-3">+593-992584759</h3>
+              
+              <div class="socialBox mb-0">
+                <ul class="list-unstyled list-inline mt-4">
+                  <li class="list-inline-item social1">
+                    <a href="http://www.facebook.com/tonsvz" class="btn-floating btn-fb mx-1">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+                  <li class="list-inline-item social1">
+                    <a href="http://www.instagram.com/tonsofcode" class="btn-floating btn-tw mx-1">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+                  <li class="list-inline-item social1">
+                    <a href="#" class="btn-floating btn-gplus mx-1">
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 formulario">
+              <div class="container2">  
+                <form id="contact" action="" method="post">
+                  <h3>Dejanos un Mensaje</h3>
+                  
+                  <fieldset>
+                    <input placeholder="Nombre y Apellido" type="text" tabindex="1" required>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Email" type="email" tabindex="2" required>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Telefono (opcional)" type="tel" tabindex="3">
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Sitio Web (opcional)" type="url" tabindex="4">
+                  </fieldset>
+                  <fieldset>
+                    <textarea placeholder="Escribe tu mensaje aca..." tabindex="5" required></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" class = "bg-dark" data-submit="...Enviando">Enviar</button>
+                  </fieldset>
+                 </form>
+              </div>
+          </div>
+        </div>
+        </div>
+      </section>
+    </main>
+
+
+  <!-- Footer -->
+  <footer class=" page-footer font-small bg-dark special-color-dark pt-4 footerBg ">
+
+    <!-- Footer Elements -->
+    <div class="container footerBg-text">
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="text-center ">
+            <li>
+              <h1>SERVICIOS</h1>
+            </li>
+            <li><a href="/index.html#reservation">
+                Reservas
+              </a></li>
+
+            <li><a href="/menu.html">
+                Menu
+              </a></li>
+            <li><a href="/events.html">
+                Eventos
+              </a></li>
+
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="text-center ">
+            <li>
+              <h1>COMPAÑIA</h1>
+            </li>
+            <li><a href="/contact.html">
+                Contacto
+              </a></li>
+
+            <li><a href="/index.html#location">
+                Ubicacion
+              </a></li>
+            <li><a href="/login.html">
+                Admin
+              </a></li>
+
+          </ul>
+        </div>
+      <div class="col-md-4">
+          <!-- Social buttons -->
+          <ul class="list-unstyled list-inline text-center">
+            <li><h1>SOCIAL</h1></li>
+            <li class="list-inline-item">
+              <a href="http://www.facebook.com/tonsvz" class="btn-floating btn-fb mx-1 ">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="http://www.instagram.com/tonsofcode" class="btn-floating btn-tw mx-1">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-gplus mx-1">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <!-- Social buttons -->
+        </div>
+
+      </div>
+
+      <hr>
+    </div>
+
+
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="footer-copyright text-center py-3">
+            Sitio Creado por <a href="http://www.instagram.com/tonsofcode" class ="maker">Tonsvz <ion-icon class ="leaf"name="leaf"></ion-icon></a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="footer-copyright text-center py-3">© 2020 Happy Moments
+        </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer  fin-->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="/JS/main-index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+  </body>
+
+</html>

@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Happy Moments - Play, Music, Snacks </title>
+  <link rel="icon" type="image/png" sizes="32x31" href="/images/HappyMomentsLogotab.png">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,700;1,700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+
+<body>
+
+  <div class="nav" id="nav">
+
+    <div class="texto-menu-nav">
+      <h1>MENU</h1>
+    </div>
+    <div class="Book ml-auto py-3">
+      <button class="btn btn-dark bg-light ml-auto btn-nav" data-modal="#modal-book~">
+        <a class="reserva" href="index.html#reservation">Reservas</a>
+      </button>
+    </div>
+    <nav class="navigation">
+
+      <div id="menuToggle">
+
+
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+
+        <!--SPANS BURGER-->
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+
+
+
+        <ul id="menu">
+          <hr>
+          <h1 class="menuText"></h1>
+          <a href="/index.html">
+            <li>Inicio</li>
+          </a>
+          <a href="/menu.html">
+            <li>Menu</li>
+          </a>
+          <a href="/index.html#reservation">
+            <li>Reservas</li>
+          </a>
+          <a href="/events.html">
+            <li>Eventos</li>
+          </a>
+          <a href="/index.html#location">
+            <li>Ubicacion</li>
+          </a>
+          <a href="/contact.html">
+            <li>Contacto</li>
+          </a>
+          <hr>
+
+          <div class="container">
+
+            <!-- Social buttons -->
+            <div class="socialBox mb-0">
+              <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item social1">
+                  <a href="http://www.facebook.com/tonsvz" class="btn-floating btn-fb mx-1">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+                <li class="list-inline-item social1">
+                  <a href="http://www.instagram.com/tonsofcode" class="btn-floating btn-tw mx-1">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+                <li class="list-inline-item social1">
+                  <a href="#" class="btn-floating btn-gplus mx-1">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Social buttons -->
+
+          </div>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!--header-->
+
+  <main id="main">
+    <div class="video-container">
+      <header class="header header-page-height">
+        <div class="header-media">
+          <img src="/images/Header - Menu.jpg" alt="" srcset="">
+        </div>
+        <div class="container">
+          <div class="row2">
+            <div class="overlay-desc mx-auto mb-5">
+              <h1 class="text-center text-header mx-auto my-4 ">MENU</h1>
+
+            </div>
+          </div>
+        </div>
+    </div>
+    </header>
+
+    <!--header fin-->
+    <!--Info - Menu-->
+    <section class="mt-3 mx-3 " id="bowling">
+      <h1 class="big" >Ven y prueba nuestras opciones</h1>
+      <p class="text-muted lead">Happy Moments offers upscale party spaces, sophisticated menus,
+        full-service bars, and cutting edge a/v systems. Our party packages offer food, beverage and entertainment
+        options to accommodate any party. Our professional event planners can work with you to create the perfect party
+        package to fit your needs. For an unforgettable night, plan your next event at Happy Moments!</p>
+    </section>
+
+    <!--Menu Section-->
+
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-md-5 menu-list">
+          <h1>NUESTRO MENU</h1>
+          <ul class="plus">
+            <li>
+              <ion-icon name="flash-outline"></ion-icon><a data-target="#carouselContent" data-slide-to="0"
+                href="#">Snacks</a> 
+            </li>
+            <li>
+              <ion-icon name="flash-outline"></ion-icon><a data-target="#carouselContent" data-slide-to="1"
+                href="#">Bebidas & Cafe</a>
+            </li>
+            <li>
+              <ion-icon name="flash-outline"></ion-icon><a data-target="#carouselContent" data-slide-to="2"
+                href="#">Postres</a>
+            </li>
+            <li>
+              <ion-icon name="flash-outline"></ion-icon><a data-target="#carouselContent" data-slide-to="3"
+                href="#">Fiestas Corporativas</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-7 slider ">
+          <div class="container-fluid">
+            <div id="carouselContent" class="carousel slide" data-interval="false">
+              <div class="carousel-inner text-dark carousel-text-menu" role="listbox">
+                <div class="carousel-item active carou-text" id="food">
+                  <h1>SNACKS</h1><br>
+                  <h3>Alitas BBQ & Mostaza</h3>
+                  <p class="text-muted">Existe un festival anual de Alitas los neoyorquinos gastan 1.2 billones en
+                    Alitas. Aquí queremos crear tu propio festival, Vamos a comer y perder la cuenta!</p>
+
+                  <h3>Baby Ribs</h3>
+                  <p class="text-muted">Esta deliciosa invención de costillas es típica de la gastronomía
+                    estadounidense. Preparamos éste plato a fuego lento, cuidamos su jugo y grasa natural, amamos su
+                    toque ahumado. <b>Acompañalo con tu salsa preferida.</b></p>
+
+                  <h3>Chicharrón Colombiano</h3>
+                  <p class="text-muted">Desde la Región andina de Colombia un crujiente trozo de cerdo. En esta cultura
+                    está en la mente y en el corazón compartir la mesa.
+                    Pídelo con tus bastones de papa.</p>
+
+
+                  <h3>Nachos & Guacamole con Pico de Gallo + Salsa Ranch</h3>
+                  <p class="text-muted">Originarios del país azteca, este sencillo y delicioso plato acompaña super bien
+                    cualquier hora del día, perfecto entre sabores y texturas. <br>
+                    ¡Pide Nachos con todos sus acompañantes!</p>
+
+                  <h3>Hot Dogs</h3>
+                 
+                  <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+                  <h3>Humitas</h3>
+                  <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, dolore?</p>
+                  
+                  <h3>Bolones</h3>
+                  <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, dolore?</p>
+                  
+                  <h3>Empanadas</h3>
+                  <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, dolore?</p>
+                  
+                  <h3>Salchipapa</h3>
+                  <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, dolore?</p>
+                </div>
+                <div class="carousel-item  carousel-text carou-text " id="food">
+                  <h1>Bebidas & Cafe</h1>
+                  <h3>Cafés</h3>
+                  <br>
+                  <ul>
+                      <h5>Espresso Simple o Doble</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, similique.</p>
+                      <h5>Cappuccino</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, similique.</p>
+                      <h5>Latte</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, similique.</p>
+                      <h5>Moccaccino</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, similique.</p>
+                      <h5>Americano</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, similique.</p>
+                      <h5>Frappe de Cafe</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, similique.</p>
+                      <h5>Latte Vainilla</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, similique.</p>
+                      <h5>Chocolate Caliente</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, similique.</p>
+
+                  </ul>
+
+                </div>
+                <div class="carousel-item  carousel-text carou-text " id="food">
+                  <h1>Postres</h1>
+                  <br>
+                  <ul>
+                    <h5>Torta de Chocolate</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, similique.</p>
+                      <h5>Torta de Zanahoria</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, similique.</p>
+                      <h5>Torta de Naranja</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, similique.</p>
+                      <h5>Torta de Platano</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, similique.</p>
+                      <h5>Cheesecake de Frutos Rojos</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, similique.</p>
+                      <h5>Cheesecake de Maracuyá</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, similique.</p>
+                      <h5>Galletas</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, similique.</p>
+                  </ul>
+                </div>
+                <div class="carousel-item  carousel-text carou-text " id="food">
+                  <h1>EVENTOS ESPECIALEasdadsadS</h1>
+                  <h3>Alitas BBQ</h3>
+                </div>
+              </div>
+              <div class="arrow-control-carousel">
+                <a class="carousel-control-prev arrows2 arrow-left-menu" href="#carouselContent" role="button"
+                  data-slide="prev" slide="1">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next arrows2 arrow-right-menu" href="#carouselContent" role="button"
+                  data-slide="next" slide="2">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <section class="mt-3 mx-5 " id="bowling">
+      <h1 class="big">Ven y Celebra con Nosotros </h1>
+      <div class="book mb-4 text-center ">
+        <button class="btn btn-dark btn-events " data-modal="#modal-book~">
+          <a class="reserva" href="index.html#reservation">Reservas</a>
+        </button>
+      </div>
+  </main>
+
+
+
+
+  <!-- Footer -->
+  <footer class=" page-footer font-small bg-dark special-color-dark pt-4 footerBg footerBg-menu-bg ">
+
+    <!-- Footer Elements -->
+    <div class="container footerBg-text">
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="text-center ">
+            <li>
+              <h1>SERVICIOS</h1>
+            </li>
+            <li><a href="/index.html#reservation">
+                Reservas
+              </a></li>
+
+            <li><a href="/menu.html">
+                Menu
+              </a></li>
+            <li><a href="/events.html">
+                Eventos
+              </a></li>
+
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="text-center ">
+            <li>
+              <h1>COMPAÑIA</h1>
+            </li>
+            <li><a href="/contact.html">
+                Contacto
+              </a></li>
+
+            <li><a href="/index.html#location">
+                Ubicacion
+              </a></li>
+            <li><a href="/login.html">
+                Admin
+              </a></li>
+
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <!-- Social buttons -->
+          <ul class="list-unstyled list-inline text-center">
+            <li>
+              <h1>SOCIAL</h1>
+            </li>
+            <li class="list-inline-item">
+              <a href="http://www.facebook.com/tonsvz" class="btn-floating btn-fb mx-1 ">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="http://www.instagram.com/tonsofcode" class="btn-floating btn-tw mx-1">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-gplus mx-1">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <!-- Social buttons -->
+        </div>
+        <hr>
+      </div>
+
+
+
+
+      <!-- Footer Elements -->
+
+      <!-- Copyright -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="footer-copyright text-center py-3">
+              Sitio Creado por <a href="http://www.instagram.com/tonsofcode" class="maker">Tonsvz <ion-icon class ="leaf"name="leaf"></ion-icon></a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer-copyright text-center py-3">© 2020 Happy Moments
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+  </footer>
+  <!-- Footer  fin-->
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="/JS/main-index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
