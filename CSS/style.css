@@ -1382,7 +1382,7 @@ h4 {
   .button {
     background: rgba(0, 0, 0, 0);
     position: absolute;
-    top: 800px;
+    top: 700px;
     right: 0;
     bottom: 0;
     left: 50px;
@@ -1398,7 +1398,6 @@ h4 {
     position: relative;
     background-color: #efefef !important;
     width: 120px;
-    height: 30px;
     
   }
 
