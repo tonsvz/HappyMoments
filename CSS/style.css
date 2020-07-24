@@ -1061,7 +1061,6 @@ h4 {
   button {
     background-color: #efefef !important;
     width: 90px;
-    
   }
 
 
@@ -1072,11 +1071,9 @@ h4 {
     top: 140px;
     right: 0;
     bottom: 0;
-    left:0;
-    margin: auto;
-    align-items: center!important;
-    justify-content: center!important;
-    object-position: center!important;
+    left:80;
+    margin: 0 auto;
+   
   }
   
   .manifest{
